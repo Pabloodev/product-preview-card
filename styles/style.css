@@ -59,14 +59,14 @@
      font-size: 14px;
      font-family: Montserrat;
      font-weight: 500;
-     padding-bottom: 20px;
+     padding-bottom: 25px;
  }
 
  .prices {
      display: flex;
      align-items: center;
      gap: 20px;
-     padding-bottom: 20px;
+     padding-bottom: 25px;
  }
 
  .new-price {
@@ -83,7 +83,7 @@
  button {
      display: flex;
      gap: 20px;
-     padding: 15px 50px;
+     padding: 15px 60px;
      margin: 0 auto;
      background-color: hsl(158, 36%, 37%);
      color: white;
