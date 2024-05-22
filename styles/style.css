@@ -1,0 +1,132 @@
+ /*----FONTES---- */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ /* ---> FONTES <---- */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: hsl(30, 38%, 92%);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+
+ main {
+     display: flex;
+     width: 600px;
+     height: 450px;
+     background-color: white;
+     border-radius: 15px;
+ }
+
+ .photo-perfume {
+     width: 300px;
+     height: 450px;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+ }
+
+ .description {
+     padding: 30px;
+ }
+
+ .category {
+     color: hsl(228, 12%, 48%);
+     letter-spacing: 10px;
+     font-weight: 500;
+     font-size: 14px;
+     font-family: Montserrat;
+ }
+
+ h1 {
+     padding-top: 20px;
+     font-family: Fraunces;
+     color: hsl(212, 21%, 14%)
+ }
+
+ p {
+
+     padding-top: 20px;
+     color: hsl(228, 12%, 48%);
+     line-height: 23px;
+     font-size: 14px;
+     font-family: Montserrat;
+     font-weight: 500;
+     padding-bottom: 20px;
+ }
+
+ .prices {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     padding-bottom: 20px;
+ }
+
+ .new-price {
+     color: hsl(158, 36%, 37%);
+     font-weight: 700;
+     font-size: 33px;
+     font-family: Fraunces;
+ }
+
+ .old-price {
+     color: hsl(228, 12%, 48%);
+ }
+
+ button {
+     display: flex;
+     gap: 20px;
+     padding: 15px 50px;
+     margin: 0 auto;
+     background-color: hsl(158, 36%, 37%);
+     color: white;
+     font-weight: 700;
+     font-family: Montserrat;
+     border: none;
+     border-radius: 10px;
+     transition: 0.3s;
+ }
+
+ button:hover {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 27%);
+ }
+
+ @media screen and (max-width: 1020px) {
+    
+     main {
+         flex-direction: column;
+         width: 330px;
+         height: 650px;
+     }
+
+
+     .photo-perfume {
+         width: 330px;
+         height: 260px;
+         border-top-right-radius: 15px;
+         border-bottom-left-radius: 0;
+     }
+
+     .description {
+         padding: 20px;
+     }
+
+     h1 {
+         padding-top: 10px;
+         font-weight: 800;
+     }
+
+     p {
+
+        padding-top: 20px;
+    }
+
+    
+    }
