@@ -40,7 +40,7 @@
      color: hsl(228, 12%, 48%);
      letter-spacing: 10px;
      font-weight: 500;
-     font-size: 16px;
+     font-size: 12px;
      font-family: Montserrat;
  }
 
@@ -48,7 +48,7 @@
      padding-top: 20px;
      font-family: Fraunces;
      color: hsl(212, 21%, 14%);
-     line-height: 40px;
+     line-height: 30px;
  }
 
  p {
